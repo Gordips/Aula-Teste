@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educação para Todos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Educação para Todos</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre a Educação</h2>
+        <p>A educação é um direito fundamental e essencial para o desenvolvimento pessoal e coletivo. Ela abre portas para o conhecimento, crescimento e oportunidades.</p>
+    </section>
+
+    <section id="beneficios">
+        <h2>Benefícios da Educação</h2>
+        <ul>
+            <li>Aumenta as oportunidades de emprego.</li>
+            <li>Melhora a qualidade de vida.</li>
+            <li>Fomenta o pensamento crítico e a inovação.</li>
+            <li>Fortalece a cidadania e a democracia.</li>
+        </ul>
+        <button onclick="mostrarMensagem()">Clique para saber mais!</button>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Educação para Todos. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
